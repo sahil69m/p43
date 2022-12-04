@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MyQuiz Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      //Your web app's Firebase configuration
+      const firebaseConfig = {
+  apiKey: "AIzaSyAtjHKN3fDDmSARD0FSscscRXFAwFqTW2Y",
+  authDomain: "balloon-c13af.firebaseapp.com",
+  databaseURL: "https://balloon-c13af-default-rtdb.firebaseio.com",
+  projectId: "balloon-c13af",
+  storageBucket: "balloon-c13af.appspot.com",
+  messagingSenderId: "779293040969",
+  appId: "1:779293040969:web:43f0b813f666befaad7a98"
+};
+
+
+      // // Initialize Firebase
+      // firebase.initializeApp(firebaseConfig);
+      // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebase Config =  {
+  apiKey: "AIzaSyBDX_8WXjHkF8XiZlLK10LiapBS_BUH9oM",
+  authDomain: "ballon-ride-d8fc8.firebaseapp.com",
+  projectId: "ballon-ride-d8fc8",
+  storageBucket: "ballon-ride-d8fc8.appspot.com",
+  messagingSenderId: "154699984297",
+  appId: "1:154699984297:web:3f761036c4b33a090628b8",
+  measurementId: "G-00E6KMVFZ3"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
+</html>
